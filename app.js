@@ -14,6 +14,15 @@ document.addEventListener('DOMContentLoaded', () => {
             card.scrollIntoView({ behavior: 'smooth' });
         });
         indexContainer.appendChild(indexLink);
+
+        // Agregar evento para resaltar la tarjeta cuando se reproduce el audio
+        const audioElement = card.querySelector('audio');
+        audioElement.addEventListener('play', () => {
+            card.classList.add('card-playing');
+        });
+        audioElement.addEventListener('pause', () => {
+            card.classList.remove('card-playing');
+        });
     });
 });
 
