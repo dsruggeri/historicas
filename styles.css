@@ -55,7 +55,7 @@ header {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.75);
 }
 
 .card img {
@@ -65,6 +65,12 @@ header {
     height: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transition: transform .5s;
+    
+}
+
+.card img:hover {
+    transform: scale(1.05);
 }
 
 .card h2,
@@ -123,7 +129,7 @@ header {
 
 .card.playing h2,
 .card.playing p {
-    color: #3498db;
+    color: #7914a4;
 }
 
 .card.playing .audio-container {
