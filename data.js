@@ -198,7 +198,7 @@ const galleryData = [
         audio: "/audios/33Naky.mp3"
     },
     {
-        title: "34 Laura Velázquez",
+        title: "34 - Laura Velázquez",
         image: "/images/34 Laura Velazquez.jpg",
         text: "La música como manada",
         audio: "/audios/34LauraVelazquez.mp3"
