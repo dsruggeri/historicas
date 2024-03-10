@@ -84,6 +84,12 @@ const galleryData = [
         audio: "/audios/14AnalíaGarcetti.mp3"
     },
     {
+        title: "15 - Magda De Merolis",
+        image: "/images/15 Magda De Merolis.jpg",
+        text: "La música como el agua",
+        audio: "/audios/15MagdaDeMerolis.mp3"
+    },
+    {
         title: "16 - Alicia Merlo",
         image: "/images/16 Alicia Merlo.jpg",
         text: "La música como semilla",

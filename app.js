@@ -21,7 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function createCard(data, index) {
         const card = document.createElement('div');
         card.className = 'card';
-        
+
+        card.addEventListener('click', () => {
+            toggleAudio(card);
+        });
+
         const image = document.createElement('img');
         image.src = data.image;
         card.appendChild(image);
@@ -36,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const audioContainer = document.createElement('div');
         audioContainer.className = 'audio-container';
-        
+
         const audio = document.createElement('audio');
         audio.controls = true;
         audio.src = data.audio;
@@ -61,5 +65,14 @@ document.addEventListener('DOMContentLoaded', () => {
         card.appendChild(audioContainer);
 
         return card;
+    }
+
+    function toggleAudio(card) {
+        const audio = card.querySelector('audio');
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
     }
 });
