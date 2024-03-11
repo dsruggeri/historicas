@@ -63,7 +63,7 @@ const galleryData = [
         title: "11 - Epílogo",
         image: "/images/0-Epilogo.png",
         text: "Históricas",
-        audio: "/audios/0Epílogo"
+        audio: "/audios/0Epílogo.mp3"
     },
     {
         title: "12 - Myriam Belfer",

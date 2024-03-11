@@ -9,12 +9,13 @@ body {
 }
 
 h1 {
-    color: #f5f5f5;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto */
+    color: #040404;
+    text-shadow: 2px 2px 4px rgba(155, 154, 154, 0.8); /* Sombra de texto */
 }
 
 header {
-    background: url('https://picsum.photos/1600/300?grayscale&?blur') center/cover;
+    /*background: url('https://picsum.photos/1600/300?grayscale&?blur') center/cover;*/
+    background: url('/images/mapa2.jpg') center/cover;
     padding: 20px;
     text-align: center;
     grid-column: span 2;
@@ -25,8 +26,8 @@ header {
     font-size: 1.2em;
     margin-top: 10px;
     padding: 10px 40px;
-    color: #fff; /* Texto blanco */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Sombra de texto */
+    color: #040404; /* Texto blanco */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Sombra de texto */
 }
 
 .gallery {
